@@ -1,0 +1,149 @@
+@charset "utf-8";
+body{
+	margin: 0;
+	background: #27282B;
+	font-family: montserrat;
+}
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+  text-decoration: none;
+}
+.title{
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #3BA1EB;
+	font-weight: 800;
+	font-size: 80px;
+}
+.title b{
+	color: white;
+	font-weight: 200;
+	
+}
+.buttons{
+	width: 100%;
+	min-height: 50px;
+	display: flex;
+	background: #2B2C2F;
+}
+.buttons .button{
+	margin: auto;
+	min-width: 30px;
+	max-height: 9px;
+	padding: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: whitesmoke;
+	display: inline-table;
+	border-radius: 15px;
+	transition: 0.4s;
+}
+.buttons .button:hover{
+	-webkit-filter: blur(0.6px);
+}
+.buttons .button text{
+	display: table-cell;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: 500;
+	font-size 17px;
+}
+.designs{
+	margin: 20px;
+	width: 98%;
+	height: auto;
+	padding-bottom: 20px;
+	background: #2B2C2F;
+	margin-left: auto;
+	margin-right: auto;
+}
+.designs .title{
+	display: table;
+	width: 100%;
+	height: auto;
+}
+.designs .title text{
+	display: table-cell;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 40px;
+	color: white
+}
+.designs .rows{
+	width: 100%;
+	height: auto;
+}
+.designs .rows .center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+.designs .rows .row{
+	width: 20%;
+	height: 360px;
+	display: inline-block;
+	margin: auto;
+	margin-left: 50px;
+	margin-top: 20px;
+	transition: 0.5s;
+	background-size: cover;
+}
+.designs .contact{
+	width: 100%;
+	min-height: 400px;
+}
+.designs .contact .title{
+	width: 100%;
+	display: table;
+}
+.designs .contact .title text{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+}
+
+.designs .contact .rows{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+.designs .contact .rows .row{
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	display: table;
+}
+.designs .contact .rows .row .icon{
+	display: table-cell;
+	width: 100%;
+	vertical-align: middle;
+}
+.designs .contact .rows .row .icon i{
+	display: block;
+	width: 100%;
+	font-size: 80px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.designs .contact .rows .row .icon img{
+	display: block;
+	width: 40%;
+	font-size: 80px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.designs .rows .row:hover{
+	box-shadow: 0 0 15px -5px white;
+}
